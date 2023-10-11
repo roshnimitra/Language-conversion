@@ -1,9 +1,9 @@
 # Language-conversion
-###Using python, we can convert a written text to any languages we prefer
+# Using python, we can convert a written text to any languages we prefer
 
-'''bash
+
 pip install googletrans
-'''
+
 '''python
 from googletrans import Translator
 
