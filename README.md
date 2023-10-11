@@ -4,7 +4,6 @@
 
 pip install googletrans
 
-'''python
 from googletrans import Translator
 
 text = input("Enter the text to translate: ")
@@ -21,7 +20,7 @@ languages = {
     "italian": 'it'
 }
 
-# Check if the user's input matches a language in the dictionary
+### Check if the user's input matches a language in the dictionary
 if language_choice in languages:
     target_language = languages[language_choice]
     
