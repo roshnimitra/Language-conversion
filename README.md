@@ -7,9 +7,9 @@ pip install googletrans
 from googletrans import Translator
 
 text = input("Enter the text to translate: ")
-language_choice = input("Enter the target language (e.g., Spanish, Chinese, Italian): ")
+language_choice = input("Enter the target language (e.g., spanish, chinese, italian): ")
 
-# Define a dictionary to map language names to language codes
+### Define a dictionary to map language names to language codes
 languages = {
     "spanish": 'es',
     "chinese": 'zh-CN',
@@ -33,6 +33,6 @@ if language_choice in languages:
     # Print the translation
     print(f'Translated to {language_choice}: {result.text}')
 else:
-    print("Invalid language choice. Please choose from Spanish, Chinese, or Italian.")
+    print("Invalid language choice.")
 '''
 
